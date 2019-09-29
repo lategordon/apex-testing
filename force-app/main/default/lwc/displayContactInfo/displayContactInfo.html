@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Contact Mini Info" inon-name="standard:contact">
+        <template if:true={contact.data}>
+            <div class="slds-m-around_medium">
+                <p>{name}</p>
+                <p>{title}</p>
+                <p><lightning-formatted-phone value={phone}></lightning-formatted-phone></p>
+                <p><lightning-formatted-phone value={mobile}></lightning-formatted-phone></p>
+                <p><lightning-formatted-email value={email}></lightning-formatted-email></p>
+            </div>
+        </template>
+        <template if:true={contact.error}>
+            <div class="slds-text-color_error">
+                An error occurred while loading the contact record
+            </div>
+        </template>
+    </lightning-card>
+    
+</template>

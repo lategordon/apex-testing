@@ -2,7 +2,14 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/displayContactInfo": [
+                "displayContactInfo/displayContactInfo.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ]
+        }
     },
     "include": [
         "**/*",
