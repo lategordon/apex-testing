@@ -3,8 +3,20 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/addAccount": [
+                "addAccount/addAccount.js"
+            ],
+            "c/cloneOpportunity": [
+                "cloneOpportunity/cloneOpportunity.js"
+            ],
+            "c/createAccount": [
+                "createAccount/createAccount.js"
+            ],
             "c/displayContactInfo": [
                 "displayContactInfo/displayContactInfo.js"
+            ],
+            "c/displayDataTable": [
+                "displayDataTable/displayDataTable.js"
             ],
             "c/helloWorld": [
                 "helloWorld/helloWorld.js"
